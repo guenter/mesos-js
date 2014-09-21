@@ -11,3 +11,24 @@ Exports two useful modules:
 - **mesos** a pure javascript implementation of the
   [Apache Mesos](http://mesos.apache.org) framework API.
 
+## Dependencies
+
+- node.js
+
+- grunt-cli ``npm install -g grunt-cli``
+
+- GCC
+
+
+## Install
+1. ``npm install``
+
+	* Installs project dependencies specified in package.json
+
+## Build
+1. ``grunt``
+
+	* Runs jshint
+	* Copies src code to dist
+	* TODO Runs jasmine tests
+
