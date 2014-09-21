@@ -1,18 +1,24 @@
-'use strict';
+(function () {
+  'use strict';
 
-module.exports = function(grunt) {
+  module.exports = function(grunt) {
 
     grunt.initConfig({
-        paths: require('./paths')
+      paths: require('./paths')
     });
 
     grunt.file.expand('grunt/*.js').forEach(function (task) {
-        require('./' + task)(grunt);
+      require('./' + task)(grunt);
     });
 
-    grunt.registerTask('default', [
-        'jshint',
-        'copy'
+    grunt.registerTask('test', [
+      'jshint'
     ]);
 
-};
+    grunt.registerTask('default', [
+      'jshint',
+      'copy'
+    ]);
+
+  };
+}());
