@@ -1,5 +1,7 @@
 # mesos-js
 
+<img src="https://travis-ci.org/topology-io/mesos-js.svg?branch=master" />
+
 Exports two useful modules:
 
 - **libprocess** a pure javascript implementation of the
