@@ -3,18 +3,8 @@
 
   module.exports = function(grunt) {
 
-    grunt.loadNpmTasks('grunt-mocha-test');
-
     grunt.initConfig({
-      paths: require('./paths'),
-      mochaTest: {
-        test: {
-          options: {
-            reporter: 'spec'
-          },
-          src: ['test/**/*.js']
-        }
-      }
+      paths: require('./paths')
     });
 
     grunt.file.expand('grunt/*.js').forEach(function (task) {
