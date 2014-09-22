@@ -14,21 +14,23 @@ Exports two useful modules:
 ## Dependencies
 
 - node.js
-
-- grunt-cli ``npm install -g grunt-cli``
-
-- GCC
+- grunt-cli `npm install -g grunt-cli`
+- gcc
 
 
 ## Install
-1. ``npm install``
+1. `npm install`
 
-	* Installs project dependencies specified in package.json
+    * Installs project dependencies specified in package.json
+
+1. `npm test`
+
+    * Runs jshint
+    * Runs unit tests with Mocha
 
 ## Build
-1. ``grunt``
+1. `grunt`
 
-	* Runs jshint
-	* Copies src code to dist
-	* TODO Runs jasmine tests
-
+    * _TODO: generates compiled javascript from Mesos protocol buffers_
+    * Runs jshint
+    * Copies src code to dist
