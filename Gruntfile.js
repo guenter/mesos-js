@@ -12,7 +12,8 @@
     });
 
     grunt.registerTask('test', [
-      'jshint'
+      'jshint',
+      'mochaTest'
     ]);
 
     grunt.registerTask('default', [
