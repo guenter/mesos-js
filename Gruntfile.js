@@ -18,7 +18,8 @@
 
     grunt.registerTask('default', [
       'jshint',
-      'copy'
+      'copy',
+      'gen-protobuf'
     ]);
 
   };
