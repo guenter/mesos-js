@@ -19,18 +19,16 @@ Exports two useful modules:
 
 
 ## Install
+
 1. `npm install`
-
-    * Installs project dependencies specified in package.json
-
+  * Installs project dependencies specified in package.json
 1. `npm test`
-
-    * Runs jshint
-    * Runs unit tests with Mocha
+  * Runs jshint
+  * Runs unit tests with Mocha
 
 ## Build
 1. `grunt`
 
-    * _TODO: generates compiled javascript from Mesos protocol buffers_
-    * Runs jshint
-    * Copies src code to dist
+  * _TODO: generates compiled javascript from Mesos protocol buffers_
+  * Runs jshint
+  * Copies src code to dist
