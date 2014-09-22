@@ -29,6 +29,6 @@ Exports two useful modules:
 ## Build
 1. `grunt`
 
-  * _TODO: generates compiled javascript from Mesos protocol buffers_
+  * Generates compiled javascript from Mesos protocol buffers
   * Runs jshint
   * Copies src code to dist
