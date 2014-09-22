@@ -6,6 +6,7 @@
     "test": "grunt test"
   },
   "devDependencies": {
+    "deep-equal": "^0.2.1",
     "grunt": "~0.4.4",
     "grunt-contrib-copy": "~0.5.0",
     "grunt-contrib-jshint": "~0.10.0",
@@ -16,6 +17,7 @@
     "protobufjs": "3.6.0",
     "readdir": "~0.0.13",
     "requirejs": "~2.1.15",
-    "should": "^4.0.4"
+    "should": "^4.0.4",
+    "underscore": "^1.7.0"
   }
 }
